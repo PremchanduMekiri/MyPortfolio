@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* Header */
+header {
+    padding: 20px;
+    background: #0073e6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: space-between;
+    text-align: left;
+}
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 10px;
+}
+.typing-text {
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffd700;
+}
+
+/* About Me */
+.about-me {
+    margin: 40px auto;
+    max-width:90%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects */
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 90%;
+}
+.project {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.project:hover {
+    transform: scale(1.05);
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 90%;
+    justify-content: space-between;
+}
+.skills-category {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.skills-category:hover{
+    transform: scale(1.05);
+}
+.skills-category ul {
+    list-style: none;
+    padding: 0;
+}
+.skills-category ul li {
+   
+    color: rgb(22, 20, 20);
+    padding: 10px;
+    margin: 5px 0;
+ 
+}
+
+/* Contact */
+.contact {
+    margin-top: 50px;
+    padding: 20px;
+    background: #0073e6;
+    color: white;
+}
+.contact a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
